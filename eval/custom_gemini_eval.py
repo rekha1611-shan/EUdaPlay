@@ -5,7 +5,7 @@ from src.config import Config
 class GeminiDeepEvalLLM(DeepEvalBaseLLM):
     def __init__(self):
         self.model = ChatGoogleGenerativeAI(
-            model="gemini-2.5-flash",
+            model="Gemini 3.5 Flash",
             google_api_key=Config.GEMINI_API_KEY
         )
 
